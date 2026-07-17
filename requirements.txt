@@ -29,3 +29,5 @@ numpy
 scikit-learn
 
 langchain_huggingface
+
+streamlit

@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "book_name",
+        "language",
+        "lines"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        Generate summary of \"{book_name}\" book in \"{language}\" in \"{lines}\" lines.\n        if the book is banned in India then your output should be\n        \"This book is banned in India\"\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
