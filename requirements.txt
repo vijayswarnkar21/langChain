@@ -9,6 +9,9 @@ openai
 # Anthropic Integration
 langchain-anthropic
 
+# ollama Integration
+langchain-ollama
+
 # Google Gemini (PaLM) Integration
 langchain-google-genai
 google-generativeai
@@ -24,3 +27,5 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+langchain_huggingface
