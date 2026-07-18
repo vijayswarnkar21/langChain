@@ -34,3 +34,6 @@ chain = template | model | parser
 final_result = chain.invoke({'place':'sri lankan'})
 
 print(final_result)
+
+
+chain.get_graph().print_ascii()
